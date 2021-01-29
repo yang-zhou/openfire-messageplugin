@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin>
+    <class>org.igniterealtime.openfire.messageplugin.MessageFilterPlugin</class>
+    <name>Message Filter Plugin</name>
+    <description>An plugin that filter message and push to a defined topic/chanel by hazelcast/redis</description>
+    <author>cy</author>
+    <version>1.1.0</version>
+    <date>25/01/2020</date>
+    <minServerVersion>4.0.0</minServerVersion>
+    <!-- And if it won't work after:
+   <maxServerVersion>4.3.0</maxServerVersion>
+   -->
+    <!--
+    <adminconsole>
+      <tab id="tab-server">
+         <sidebar id="sidebar-server-settings">
+            <item id="message-filter-plugin-page" name="Example Plugin Properties" url="message-filter-plugin-page.jsp" description="Settings for Plugin" />
+         </sidebar>
+      </tab>
+    </adminconsole>
+    -->
+</plugin>
